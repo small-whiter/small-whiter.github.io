@@ -315,3 +315,83 @@ ul.left-menu li:hover a{
 	right: 0;
 	background-position: -125px 0;
 }
+/*设置回到顶部的元素*/
+.back-top{
+	width: 26px;
+	height: 206px;
+	background-color: #bfa;
+		/*开启固定定位*/
+	position: fixed;
+	bottom: 430px;
+	right: 50%;
+	margin-right: -639px;
+}
+
+.ad{
+	position: relative;
+	background-color: red;
+	height: 170px;
+	margin-top: 14px;
+	top: 460px;
+}
+
+.ad .shortcut,
+.ad .imgs,
+.ad li{
+	float: left;
+}
+
+.ad .shortcut{
+	width: 234px;
+	height: 168px;
+	background-color: #5f5750;
+	margin-right: 14px;
+	padding-top: 2px; 
+}
+
+.ad .shortcut a{
+	color: #cfccca;
+	display: block;
+	height: 84px;
+	width: 76px;
+	text-align: center;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+.ad .shortcut a:hover{
+	color: #fff;
+}
+
+.ad .shortcut li::before{
+	content: '';
+	position: absolute;
+	width: 64px;
+	height: 1px;
+	background-color: #665e57;
+	left: 0;
+	right: 0;
+	top: 
+}
+
+.ad .shortcut li{
+	position: relative;
+}
+
+.ad .shortcut i{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 6px;
+	font-size: 20px;
+}
+
+.ad .imgs li{
+	width: 316px;
+	margin-right: 15px;
+
+}
+
+.ad .imgs img{
+	width:100%;
+	margin-right: 15px
+}
