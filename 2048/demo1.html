@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		div #hhh{
+			position: relative;
+		}
+	</style>
+	<script type="text/javascript">
+		window.onload=function(){
+		
+			var one = document.getElementsByClassName("1");
+			console.log(one);//#text
+			var one = document.getElementById("one");
+			console.log(one.previousElementSibling.innerHTML);
+		}
+				
+	</script>
+</head>
+<body>
+	<div id="box" class="1">
+		123
+    <ul id="ul">
+        <li>第一个</li>
+        <li id="one">第二个</li>
+        <li>第三个</li>
+    </ul>
+    <p>我是第二个子节点</p>
+</div>
+</body>
+</html>
