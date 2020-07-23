@@ -3,7 +3,7 @@
 	padding: 0;
 }
 html{
-	animation:html 4s ease infinite;
+	/*animation:html 4s ease infinite;*/
 }
 body{
 	height:100vh;
@@ -18,7 +18,7 @@ body{
 	margin:200px auto;
 	position: relative;
 	transition: rotate(45deg);
-	animation: heart 4s ease infinite;
+	/*animation: heart 4s ease infinite;*/
 	transition: all 1s ease;
 	
 }
@@ -31,7 +31,7 @@ body{
 	position: absolute;
 	top:-100px;
 	left: 0;
-	animation:left 4s ease infinite;
+	/*animation:left 4s ease infinite;*/
 	transition: all 1s ease;
 }
 .heart::after{
