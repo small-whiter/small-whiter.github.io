@@ -5,6 +5,12 @@
 html{
 	animation:html 4s ease infinite;
 }
+body{
+	height:100vh;
+	display: flex;
+	justify-content: center;
+	align-items:  center;
+}
 .heart{
 	width: 200px;
 	height: 200px;
@@ -14,6 +20,7 @@ html{
 	transition: rotate(45deg);
 	animation: heart 4s ease infinite;
 	transition: all 1s ease;
+	
 }
 .heart::before{
 	content: "";
